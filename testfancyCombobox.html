@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<link href='css/jquery.fancy.combobox.css' rel="stylesheet"/>
+
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fancy.combobox-1.0.js"></script>
 	<script type="text/javascript" src="js/test.fancy.combobox.js"></script>
@@ -10,6 +13,20 @@
 	<title>Test Fancy Combobox</title>
 </head>
 <body>
-
+	<span class="fancy-combobox">
+		<select name="somename">
+			<option value="opt1" selected="selected">Option 1</option>
+			<option value="opt2">Option 2</option>
+			<option value="opt3">Option 3</option>
+		</select>
+		<div class="holder">
+			<a class="fancy-combobox-value" data-value="opt1" href="#"><span>Option 1</span></a>
+			<ul class="fancy-combobox">
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</span>
 </body>
 </html>

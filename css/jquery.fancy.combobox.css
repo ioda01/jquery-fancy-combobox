@@ -1,0 +1,30 @@
+.fancy-combobox select {
+	display: none;
+}
+
+.fancy-combobox ul {
+    list-style:none;
+}
+
+.fancy-combobox  a {
+	display: block;
+    text-decoration: none;
+    padding-left: 8px;
+    color: #555555;
+}
+
+.fancy-combobox  a:focus {
+	outline:0;
+}
+
+.fancy-combobox .fancy-combobox-value {
+	position: relative;
+    z-index: 10;
+    display: block;
+    text-decoration: none;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    padding-right: 32px;
+    width: 160px;
+    white-space: nowrap;
+}
