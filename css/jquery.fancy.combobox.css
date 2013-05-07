@@ -1,3 +1,22 @@
+.fancy-combobox {
+	border: 1px solid #B9B9B9;
+    display: block;
+    height: 24px;
+    outline: 0 none;
+    padding: 0;
+    width: 200px;
+	background: url("../img/icon-arrow-down-search.png") no-repeat scroll right center, linear-gradient(to bottom, #ECECEC, #DDDDDD) repeat scroll 0 0 transparent;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    font-family: Verdana,Arial,sans-serif;
+    line-height: 24px;
+    position: relative;
+}
+
+.fancy-combobox:hover {
+	background: url("../img/icon-arrow-down-search.png") no-repeat scroll right center, linear-gradient(to bottom, #ECECEC, #BEBEBE) repeat scroll 0 0 transparent;
+}
+
 .fancy-combobox select {
 	display: none;
 }
@@ -17,7 +36,7 @@
 	outline:0;
 }
 
-.fancy-combobox .fancy-combobox-value {
+.fancy-combobox .value-holder {
 	position: relative;
     z-index: 10;
     display: block;
@@ -27,4 +46,9 @@
     padding-right: 32px;
     width: 160px;
     white-space: nowrap;
+}
+
+.fancy-combobox .dropdown {
+	position: absolute;
+	display: none;
 }
